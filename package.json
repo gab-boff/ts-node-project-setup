@@ -2,10 +2,15 @@
   "name": "ts-node-project-setup",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon --watch 'src/' --exec 'ts-node src/index.ts' -e ts"
+  },
   "repository": "git@github.com:gab-boff/ts-node-project-setup.git",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^20.4.1",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
     "typescript": "^5.1.6"
   }
 }
