@@ -7,7 +7,8 @@
     "husky:prepare": "husky install",
     "test": "jest --passWithNoTests",
     "test:watch": "yarn test --watch",
-    "test:staged": "yarn test  --findRelatedTests"
+    "test:staged": "yarn test  --findRelatedTests",
+    "test:push":  "yarn test --coverage"
   },
   "repository": "git@github.com:gab-boff/ts-node-project-setup.git",
   "license": "MIT",
